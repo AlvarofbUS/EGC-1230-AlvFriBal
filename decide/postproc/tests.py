@@ -2,8 +2,11 @@ from django.test import TestCase
 
 from rest_framework.test import APIClient
 from rest_framework.test import APITestCase
+from base.tests import BaseTestCase
+
 
 from base import mods
+
 
 
 class PostProcTestExecuted(BaseTestCase):
@@ -14,7 +17,7 @@ class PostProcTestExecuted(BaseTestCase):
         super().tearDown()
     
     def test_executed(self):
-        register_status('TEST_POSTPROC_EXECUTED')
+        mods.register_status('TEST_POSTPROC_EXECUTED')
         
 class PostProcTestCase(APITestCase):
 

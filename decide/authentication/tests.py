@@ -5,6 +5,7 @@ from rest_framework.test import APITestCase
 from django.contrib.auth.models import User
 from rest_framework.authtoken.models import Token
 
+from base.tests import BaseTestCase
 from base import mods
 
 class AuthTestExecuted(BaseTestCase):
@@ -15,7 +16,7 @@ class AuthTestExecuted(BaseTestCase):
         super().tearDown()
     
     def test_executed(self):
-        register_status('TEST_AUTH_EXECUTED')
+        mods.register_status('TEST_AUTH_EXECUTED')
         
 class AuthTestCase(APITestCase):
 

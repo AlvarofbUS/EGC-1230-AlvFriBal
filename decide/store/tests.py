@@ -25,7 +25,7 @@ class StoreTestExecuted(BaseTestCase):
         super().tearDown()
     
     def test_executed(self):
-        register_status('TEST_STORE_EXECUTED')
+        mods.register_status('TEST_STORE_EXECUTED')
         
 class StoreTextCase(BaseTestCase):
 
