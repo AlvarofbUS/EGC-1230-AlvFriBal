@@ -74,7 +74,7 @@ MODULES = [
     'voting',
 ]
 
-BASEURL = 'https://egc-1230-alvfribal.herokuapp.com/'
+BASEURL = 'https://egc-1230-alvfribal.herokuapp.com'
 
 APIS = {
     	'authentication': 'https://egc-1230-alvfribal.herokuapp.com/', 
