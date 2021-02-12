@@ -88,7 +88,7 @@ APIS = {
 		'voting': 'https://egc-1230-alvfribal.herokuapp.com/',
 		}
 
-
+STATIC_ROOT = '/app/static/'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
