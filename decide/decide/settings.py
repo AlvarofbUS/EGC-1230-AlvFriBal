@@ -77,15 +77,15 @@ MODULES = [
 BASEURL = 'https://egc-1230-alvfribal.herokuapp.com'
 
 APIS = {
-    	'authentication': 'https://egc-1230-alvfribal.herokuapp.com/', 
-		'base': 'https://egc-1230-alvfribal.herokuapp.com/',
-    	'booth': 'https://egc-1230-alvfribal.herokuapp.com/',
-    	'census': 'https://egc-1230-alvfribal.herokuapp.com/',
-		'mixnet': 'https://egc-1230-alvfribal.herokuapp.com/',
-   		'postproc': 'https://egc-1230-alvfribal.herokuapp.com/',
-    	'store': 'https://egc-1230-alvfribal.herokuapp.com/',
-		'visualizer': 'https://egc-1230-alvfribal.herokuapp.com/',
-		'voting': 'https://egc-1230-alvfribal.herokuapp.com/',
+    	'authentication': 'https://egc-1230-alvfribal.herokuapp.com', 
+		'base': 'https://egc-1230-alvfribal.herokuapp.com',
+    	'booth': 'https://egc-1230-alvfribal.herokuapp.com',
+    	'census': 'https://egc-1230-alvfribal.herokuapp.com',
+		'mixnet': 'https://egc-1230-alvfribal.herokuapp.com',
+   		'postproc': 'https://egc-1230-alvfribal.herokuapp.com',
+    	'store': 'https://egc-1230-alvfribal.herokuapp.com',
+		'visualizer': 'https://egc-1230-alvfribal.herokuapp.com',
+		'voting': 'https://egc-1230-alvfribal.herokuapp.com',
 		}
 
 STATIC_ROOT = '/app/static/'
