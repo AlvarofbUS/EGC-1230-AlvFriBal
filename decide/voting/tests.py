@@ -142,7 +142,13 @@ class VotingTestCase(BaseTestCase):
         self.assertEqual(response.status_code, 201)
 
     def test_update_voting(self):
-        voting = self.create_voting()
+        voting = self.create_voting()#deploy:
+#  provider: heroku
+#  app: decide-part-zumeta
+#  strategy: git
+#  api_key: $HEROKU_TOKEN
+#  on:
+#    branch: develop
 
         data = {'action': 'start'}
         #response = self.client.post('/voting/{}/'.format(voting.pk), data, format='json')
